@@ -16,7 +16,12 @@
         <p>Snippets</p>
         <p>Resume</p>
     </div>
-    <p id="main_text">This is currently under construction at GitHub Pages!</p>
+    <p id="main_text" class="actively_typed">This is currently under construction at GitHub Pages!</p>
+    <script>
+      var active_type=function(a){var d=0,g=function(b,a){var f=b.style;try{f.transitionDuration=0}catch(g){}try{f.opacity=0}catch(h){}try{b.parentNode.style.opacity=0}catch(k){}var e=b.innerHTML.split(""),c={dom:b,parts:e,speed:a};b.innerHTML="";setTimeout(function(){for(var b in e)setTimeout(function(){c.dom.innerHTML+=c.parts.shift()},b*c.speed,c)},d*a,c);setTimeout(function(){var a=b.parentNode.style;a.transitionDuration="0.5s";a.opacity=1;b.style.transitionDuration="0.5s";b.style.opacity=1},d*a,b);d+=e.length};a=document.getElementsByClassName(a);for(var h in a)g(a[h],50)};
+      active_type("actively_typed");  
+    </script>
+
     <script type="text/javascript">
     /*setTimeout(function(){
               location.reload();
