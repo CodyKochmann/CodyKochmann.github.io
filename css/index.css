@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 1);
+    font-family: "Avenir Next" !important;
+}
+
+#main_text {
+    margin: 3in auto;
+    text-align: center;
+}
