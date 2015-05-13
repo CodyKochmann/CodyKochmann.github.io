@@ -1,4 +1,5 @@
-var header_html = '<div id="website_header"><p id="name">Cody Kochmann</p><p id="projects_button">Projects</p><p id="snippets_button">Snippets</p><p id="resume_button">Resume</p></div>';
+var header_html = '<div id="website_header"></div>';
+var header_db = {};
 $('document').ready(function() {
     $('body').append(header_html);
 
@@ -13,6 +14,7 @@ $('document').ready(function() {
     });*/
     
 $.getJSON( "http://cody.pw/json/header.json", function( data ) {
+    header_db = data;
   var items = [];
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );
@@ -23,7 +25,7 @@ $.getJSON( "http://cody.pw/json/header.json", function( data ) {
     html: items.join( "" )
   }).appendTo( "body" );
 });
-    
+
 });
 
 

@@ -1,5 +1,33 @@
 {
-  "one": "Singular sensation",
-  "two": "Beady little eyes",
-  "three": "Little birds pitch by my doorstep"
+    "home": {
+        "title": "Cody Kochmann",
+        "options": [
+            "Contact",
+            "GitHub",
+            "Twitter"
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "options": [
+            "Search",
+            "Browse",
+            "Report a Bug"
+        ]
+    },
+    "snippets": {
+        "title": "Snippets",
+        "options": [
+            "Search",
+            "Browse",
+            "Report a Bug"
+        ]
+    },
+    "resume": {
+        "title": "Resume",
+        "options": [
+            "PDF",
+            "HTML5"
+        ]
+    }
 }
