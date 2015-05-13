@@ -17,7 +17,7 @@ $.getJSON( "http://cody.pw/json/header.json", function( data ) {
     header_db = data;
   var items = [];
   $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>" + val + "</li>" );
+    items.push( "<li id='" + key + "'>" + JSON.stringify(val) + "</li>" );
   });
  
   $( "<ul/>", {
