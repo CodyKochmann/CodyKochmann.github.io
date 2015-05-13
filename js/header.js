@@ -26,7 +26,7 @@ $('document').ready(function() {
         for (var x in menu_item["options"]){
             var option = menu_item["options"][x];
             console.log(option)
-            $("#website_header").append("<p class='"+dom_id+"_button'>"+option+"</p>");
+            $("#website_header").append("<p class='"+dom_id+"_option'>"+option+"</p>");
         }
     }
 });
