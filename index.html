@@ -10,31 +10,23 @@
 </head>
 
 <body>
-    <div id="website_header">
-        <p id="name">Cody Kochmann</p>
-        <p id="projects_button">Projects</p>
-        <p id="snippets_button">Snippets</p>
-        <p id="resume_button">Resume</p>
-    </div>
     <p id="main_text" class="actively_typed">This is currently under construction at GitHub Pages!</p>
+
     <script>
       var active_type=function(a){var d=0,g=function(b,a){var f=b.style;try{f.transitionDuration=0}catch(g){}try{f.opacity=0}catch(h){}try{b.parentNode.style.opacity=0}catch(k){}var e=b.innerHTML.split(""),c={dom:b,parts:e,speed:a};b.innerHTML="";setTimeout(function(){for(var b in e)setTimeout(function(){c.dom.innerHTML+=c.parts.shift()},b*c.speed,c)},d*a,c);setTimeout(function(){var a=b.parentNode.style;a.transitionDuration="0.5s";a.opacity=1;b.style.transitionDuration="0.5s";b.style.opacity=1},d*a,b);d+=e.length};a=document.getElementsByClassName(a);for(var h in a)g(a[h],50)};
       active_type("actively_typed");  
     </script>
 
     <script type="text/javascript">
-    /*setTimeout(function(){
-              location.reload();
-            }, 2500)*/
     </script>
     <script>
-      // Google analytics snippet
+      // google analytics
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-62487200-1', 'auto');
+      ga('create', 'UA-62487200-2', 'auto');
       ga('send', 'pageview');
 
     </script>

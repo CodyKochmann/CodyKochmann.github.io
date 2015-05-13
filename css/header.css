@@ -23,15 +23,6 @@
     animation-duration: 0.5s;
 }
 
-/*
-<div id="website_header">
-        <p id="name">Cody Kochmann</p>
-            <p id="projects_button">Projects</p>
-        <p id="snippets_button">Snippets</p>
-        <p id="resume_button">Resume</p>
-    </div>
-*/
-
 #name {
     -webkit-animation-duration: 0.6s;
     -moz-animation-duration: 0.6s;
@@ -57,7 +48,7 @@
 }
 
 #website_header #projects_button, #website_header #snippets_button, #website_header #resume_button  {
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 #website_header #projects_button:hover, #website_header #snippets_button:hover, #website_header #resume_button:hover, #website_header #name:hover {
