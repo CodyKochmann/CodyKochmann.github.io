@@ -1,37 +1,70 @@
 {
     "home": {
         "title": "Cody Kochmann",
-        "dom_id":"home_button",
-        "options": [
-            "Contact",
-            "GitHub",
-            "Twitter"
-        ]
+        "dom_id": "home_button",
+        "options": {
+            "contact": {
+                "text": "Contact",
+                "callback": "d2luZG93Lm9wZW4oIm1haWx0bzprb2NobWFubmNvZHlAZ21haWwuY29tIik7"
+            },
+            "github": {
+                "text": "GitHub",
+                "callback": "d2luZG93Lm9wZW4oImh0dHA6Ly9iaXQubHkvMUo3YkRkQiIpOw=="
+            },
+            "twitter": {
+                "text": "Twitter",
+                "callback": "d2luZG93Lm9wZW4oJ2h0dHA6Ly9iaXQubHkvMUc1Q3lZcicp"
+            }
+        }
     },
     "projects": {
         "title": "Projects",
-        "dom_id":"projects_button",
-        "options": [
-            "Search",
-            "Browse",
-            "Report a Bug"
-        ]
+        "dom_id": "projects_button",
+        "options": {
+            "search": {
+                "text": "Search",
+                "callback": ""
+            },
+            "browse": {
+                "text": "Browse",
+                "callback": ""
+            },
+            "report_bug": {
+                "text": "Report a Bug",
+                "callback": ""
+            }
+        }
     },
     "snippets": {
         "title": "Snippets",
-        "dom_id":"snippets_button",
-        "options": [
-            "Search",
-            "Browse",
-            "Report a Bug"
-        ]
+        "dom_id": "snippets_button",
+        "options": {
+            "search": {
+                "text": "Search",
+                "callback": ""
+            },
+            "browse": {
+                "text": "Browse",
+                "callback": ""
+            },
+            "report_bug": {
+                "text": "Report a Bug",
+                "callback": ""
+            }
+        }
     },
     "resume": {
         "title": "Resume",
-        "dom_id":"resume_button",
-        "options": [
-            "PDF",
-            "HTML5"
-        ]
+        "dom_id": "resume_button",
+        "options": {
+            "pdf": {
+                "text": "PDF",
+                "callback": ""
+            },
+            "html5": {
+                "text": "HTML5",
+                "callback": ""
+            }
+        }
     }
 }

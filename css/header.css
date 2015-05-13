@@ -56,6 +56,16 @@
     cursor: pointer;
 }
 
+.p_button{
+    cursor:pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #home_button {
     margin: 0 0.125in;
     padding: 0.125in 0 0;
