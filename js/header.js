@@ -13,18 +13,15 @@ $('document').ready(function() {
         window.location = "http://cody.pw/resume/"; 
     });*/
     
-$.getJSON( "http://cody.pw/json/header.json", function( data ) {
-    header_db = data;
-  var items = [];
-  $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>" + JSON.stringify(val) + "</li>" );
-  });
- 
-  $( "<ul/>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "body" );
-});
+    $.getJSON( "http://cody.pw/json/header.json", function( data ) {
+        header_db = data;
+    });
+
+    for(var i in header_db){
+        var button_text = header_db[i]["title"];
+        var dom_id = header_db[i]["dom_id"];
+        $("#website_header").append("<p id='"+dom_id+"'>"+button_text+"</p>");
+    }
 
 });
 

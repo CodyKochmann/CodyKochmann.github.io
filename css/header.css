@@ -23,7 +23,7 @@
     animation-duration: 0.5s;
 }
 
-#name {
+#home_button {
     -webkit-animation-duration: 0.6s;
     -moz-animation-duration: 0.6s;
     animation-duration: 0.6s;
@@ -51,12 +51,12 @@
     font-weight: 400;
 }
 
-#website_header #projects_button:hover, #website_header #snippets_button:hover, #website_header #resume_button:hover, #website_header #name:hover {
+#website_header #projects_button:hover, #website_header #snippets_button:hover, #website_header #resume_button:hover, #website_header #home_button:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-#website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #name {
+#website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #home_button {
     margin: 0 0.125in;
     padding: 0.125in 0 0;
     text-align: center;
@@ -119,17 +119,17 @@
 }
 
 @media (max-width: 10in;min-width: 7in;) {
-    #website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #name  {
+    #website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #home_button  {
         width: 25%;
         margin: 0;
     }
 }
 
 @media (min-width: 10in) {
-    #website_header #name {
+    #website_header #home_button {
         margin-left: 15%;
     }
-    #website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #name {
+    #website_header #projects_button, #website_header #snippets_button, #website_header #resume_button, #website_header #home_button {
         width: 17.5%;
     }
 }

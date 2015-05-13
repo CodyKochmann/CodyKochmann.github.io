@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Cody Kochmann",
+        "dom_id":"home_button",
         "options": [
             "Contact",
             "GitHub",
@@ -9,6 +10,7 @@
     },
     "projects": {
         "title": "Projects",
+        "dom_id":"projects_button",
         "options": [
             "Search",
             "Browse",
@@ -17,6 +19,7 @@
     },
     "snippets": {
         "title": "Snippets",
+        "dom_id":"snippets_button",
         "options": [
             "Search",
             "Browse",
@@ -25,6 +28,7 @@
     },
     "resume": {
         "title": "Resume",
+        "dom_id":"resume_button",
         "options": [
             "PDF",
             "HTML5"
