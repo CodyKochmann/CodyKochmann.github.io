@@ -15,14 +15,15 @@ $('document').ready(function() {
     
     $.getJSON( "http://cody.pw/json/header.json", function( data ) {
         header_db = data;
+        for(var i in header_db){
+            console.log(JSON.stringify(header_db[i]));
+            var button_text = header_db[i]["title"];
+            var dom_id = header_db[i]["dom_id"];
+            $("#website_header").append("<p id='"+dom_id+"'>"+button_text+"</p>");
+        }
     });
 
-    for(var i in header_db){
-        console.log(JSON.stringify(header_db[i]));
-        var button_text = header_db[i]["title"];
-        var dom_id = header_db[i]["dom_id"];
-        $("#website_header").append("<p id='"+dom_id+"'>"+button_text+"</p>");
-    }
+
 
 });
 
