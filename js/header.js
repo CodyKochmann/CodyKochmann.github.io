@@ -18,6 +18,7 @@ $('document').ready(function() {
     });
 
     for(var i in header_db){
+        console.log(JSON.stringify(header_db[i]));
         var button_text = header_db[i]["title"];
         var dom_id = header_db[i]["dom_id"];
         $("#website_header").append("<p id='"+dom_id+"'>"+button_text+"</p>");
