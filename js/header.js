@@ -1,30 +1,34 @@
+function grep(theUrl){ /* reference link:http://stackoverflow.com/questions/247483/http-get-request-in-javascript*/
+    var xmlHttp = null;
+    xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false );
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+
 var header_html = '<div id="website_header"></div>';
 var header_db = {};
 $('document').ready(function() {
     $('body').append(header_html);
-
-    /*$("#projects_button").click(function(event) {
-        window.location = "http://cody.pw/projects/";
-    });
-    $("#snippets_button").click((function(){
-        window.location = "http://cody.pw/snippets/"; 
-    });
-    $("#resume_button").click((function(){
-        window.location = "http://cody.pw/resume/"; 
-    });*/
     
-    $.getJSON( "http://cody.pw/json/header.json", function( data ) {
-        header_db = data;
-        for(var i in header_db){
-            console.log(JSON.stringify(header_db[i]));
-            var button_text = header_db[i]["title"];
-            var dom_id = header_db[i]["dom_id"];
-            $("#website_header").append("<p id='"+dom_id+"'>"+button_text+"</p>");
+    header_db = JSON.parse(grep("http://cody.pw/json/header.json"));
+    console.log(header_db);
+    for(var i in header_db){
+        var menu_item = header_db[i];
+        var button_text = menu_item["title"];
+        var dom_id = menu_item["dom_id"];
+        $("#website_header").append("<p id='"+dom_id+"'>"+button_text+"</p>");
+    }
+    for(var i in header_db){
+        var menu_item = header_db[i];
+        var button_text = menu_item["title"];
+        var dom_id = menu_item["dom_id"];
+        for (var x in menu_item["options"]){
+            var option = menu_item["options"][x];
+            console.log(option)
+            $("#website_header").append("<p class='"+dom_id+"_button'>"+option+"</p>");
         }
-    });
-
-
-
+    }
 });
 
 
