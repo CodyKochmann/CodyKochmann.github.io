@@ -100,6 +100,8 @@ window.show_links = (link_array=[]) ->
   document.body.style.height="auto !important"
   document.body.style.width="100% !important"
   document.body.style.background="black !important"
+  document.body.style.backgroundColor="black !important"
+  document.body.style.paddingBottom="0.25in"
   while link_array.length > 0
     i = document.createElement("img")
     i.id = b64.e(gen_fingerprint())
