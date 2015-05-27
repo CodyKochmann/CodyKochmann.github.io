@@ -154,7 +154,7 @@ b64=new b64();
     document.body.style.width = "100% !important";
     document.body.style.background = "black !important";
     document.body.style.backgroundColor = "black !important";
-    document.body.style.paddingBottom = "0.25in";
+    document.body.style.paddingBottom = "0.25in !important";
     while (link_array.length > 0) {
       i = document.createElement("img");
       i.id = b64.e(gen_fingerprint());
