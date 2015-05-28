@@ -19,7 +19,7 @@ var b64=function(){
 b64=new b64();
 
 /* snippet for NightMode */
-(function(){var a=document.createElement("style");a.innerHTML="*{background:0 0!important;border-color:rgba(200,200,200,.5)!important;color:#b4b4b4!important}body{background:#000!important}img{opacity:.75!important}a{text-decoration:none!important;color:#118bd9!important}button,input,textarea{background-color:rgba(100,100,100,.2)!important;color:#b4b4b4!important}";a.type="text/css";document.getElementsByTagName("head")[0].appendChild(a)})();
+var NightMode = function(){var%20a=document.createElement("style");a.innerHTML="*{background:0%200!important;border-color:rgba(200,200,200,.5)!important;color:#b4b4b4!important}body{background:#000!important}img{opacity:.75!important}a{text-decoration:none!important;color:#118bd9!important}button,input,textarea{background-color:rgba(100,100,100,.2)!important;color:#b4b4b4!important}";a.type="text/css";document.getElementsByTagName("head")[0].appendChild(a)};
 ;
   var ensure_array, remove_duplicates;
 
@@ -162,6 +162,7 @@ b64=new b64();
     document.body.style.width = "100% !important";
     document.body.style.background = "black !important";
     document.body.style.paddingBottom = "0.25in !important";
+    NightMode();
     while (link_array.length > 0) {
       i = document.createElement("img");
       i.id = b64.e(gen_fingerprint());
