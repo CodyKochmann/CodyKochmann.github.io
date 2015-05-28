@@ -1,6 +1,6 @@
 `
 /*
-    ImageViewer v1.0 by: Cody Kochmann - kochmanncody@gmail.com
+    ImageViewer v1.0 (5) by: Cody Kochmann - kochmanncody@gmail.com
 */
 
 var gen_fingerprint = function(){ // in reference to: http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
@@ -19,7 +19,7 @@ b64=new b64();
 /* snippet for NightMode */
 var NightMode = function(){
     var a = document.createElement("style");
-    a.innerHTML = "*{background:rgba(200, 200, 200, .5) !important;border-color:rgba(200, 200, 200, .5) !important;color:#b4b4b4 !important}body{background:#000 !important}img{opacity:.75 !important}a{text-decoration:none !important;color:#118bd9 !important}button,input,textarea{background-color:rgba(100, 100, 100, .2) !important;color:#b4b4b4 !important}";
+    a.innerHTML = "*{background:rgba(200, 200, 200, .5) !important;border-color:rgba(200, 200, 200, .5) !important;color:#b4b4b4 !important}body{background:#000 !important}a{text-decoration:none !important;color:#118bd9 !important}button,input,textarea{background-color:rgba(100, 100, 100, .2) !important;color:#b4b4b4 !important}";
     a.type = "text/css";
     document.getElementsByTagName("head")[0].appendChild(a)
 }`
