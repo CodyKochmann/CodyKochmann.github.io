@@ -94,7 +94,8 @@ window.empty_queue = () ->
     tmp = loaded_queue.pop()
     tmp.style.height="auto"
     tmp.style.width="98%"
-    tmp.style.top=(loaded_height+vertical_padding).toString()+"px"
+    tmp.style.top="0px"
+    #tmp.style.top=(loaded_height+vertical_padding).toString()+"px"
     loaded_height+=parseInt(tmp.getBoundingClientRect().height)+vertical_padding
     true
 
