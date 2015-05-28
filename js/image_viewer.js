@@ -157,8 +157,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
       return true;
     };
     
-  $("head").append('
-<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1" />');
+  $("head").append('<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1" />');
   document.body.innerHTML="";
   $("body").css({
     "height":"auto !important",

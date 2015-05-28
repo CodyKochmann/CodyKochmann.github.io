@@ -120,8 +120,7 @@ $ ->
     this.style.width="0"
     true  
   `
-  $("head").append('
-<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1" />');
+  $("head").append('<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1" />');
   document.body.innerHTML="";
   $("body").css({
     "height":"auto !important",
