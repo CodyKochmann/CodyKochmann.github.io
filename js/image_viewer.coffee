@@ -1,6 +1,6 @@
 `
 /*
-    ImageViewer v1.0 (5) by: Cody Kochmann - kochmanncody@gmail.com
+    ImageViewer v1.0 (6) by: Cody Kochmann - kochmanncody@gmail.com
 */
 
 var gen_fingerprint = function(){ // in reference to: http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
@@ -95,8 +95,7 @@ window.empty_queue = () ->
     tmp.style.height="auto"
     tmp.style.width="98%"
     tmp.style.top=(loaded_height+vertical_padding).toString()+"px"
-    loaded_height+=parseInt(tmp.getBoundingClientRect().height)
-    document.body.style.height=loaded_height.toString()+"px"
+    loaded_height+=parseInt(tmp.getBoundingClientRect().height)+vertical_padding
     true
 
 setInterval empty_queue, 100
@@ -122,7 +121,7 @@ window.show_links = (link_array=[]) ->
     i.id = b64.e(gen_fingerprint())
     i.src = link_array.pop()
     i.style.height="0px"
-    i.style.position="absolute"
+    i.style.position="relative"
     i.style.float="left"
     i.style.width=screen.width.toString()+"px"
     i.style.margin="1%"

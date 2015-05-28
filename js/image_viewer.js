@@ -2,7 +2,7 @@
 (function() {
   
 /*
-    ImageViewer v1.0 (5) by: Cody Kochmann - kochmanncody@gmail.com
+    ImageViewer v1.0 (6) by: Cody Kochmann - kochmanncody@gmail.com
 */
 
 var gen_fingerprint = function(){ // in reference to: http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
@@ -140,8 +140,7 @@ var NightMode = function(){
       tmp.style.height = "auto";
       tmp.style.width = "98%";
       tmp.style.top = (loaded_height + vertical_padding).toString() + "px";
-      loaded_height += parseInt(tmp.getBoundingClientRect().height);
-      document.body.style.height = loaded_height.toString() + "px";
+      loaded_height += parseInt(tmp.getBoundingClientRect().height) + vertical_padding;
       return true;
     }
   };
@@ -175,7 +174,7 @@ var NightMode = function(){
       i.id = b64.e(gen_fingerprint());
       i.src = link_array.pop();
       i.style.height = "0px";
-      i.style.position = "absolute";
+      i.style.position = "relative";
       i.style.float = "left";
       i.style.width = screen.width.toString() + "px";
       i.style.margin = "1%";
