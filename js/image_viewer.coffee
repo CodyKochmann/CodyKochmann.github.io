@@ -88,13 +88,15 @@ window.all_links = (special_requirement=[],requirements_optional=true) ->
 
 window.loaded_queue = []
 window.loaded_height = 0
+window.vertical_padding = parseInt(screen.width*0.01)
 window.empty_queue = () ->
   if loaded_queue.length>0
     tmp = loaded_queue.pop()
     tmp.style.height="auto"
     tmp.style.width="98%"
-    tmp.style.top=loaded_height.toString()+"px"
+    tmp.style.top=(loaded_height+vertical_padding).toString()+"px"
     loaded_height+=parseInt(tmp.getBoundingClientRect().height)
+    document.body.style.height=loaded_height.toString()+"px"
     true
 
 setInterval empty_queue, 100
