@@ -104,7 +104,7 @@ $ ->
     if loaded_queue.length>0
       tmp = loaded_queue.pop()
       tmp.style.height="auto"
-      tmp.style.width=($(window).width()*0.98).toString+"px"
+      tmp.style.width=($(window).width()*0.98).toString()+"px"
       tmp.style.top=(loaded_height+vertical_padding).toString()+"px"
       loaded_height+=parseInt(tmp.getBoundingClientRect().height)+vertical_padding
       true

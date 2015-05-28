@@ -140,7 +140,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
       if (loaded_queue.length > 0) {
         tmp = loaded_queue.pop();
         tmp.style.height = "auto";
-        tmp.style.width = ($(window).width() * 0.98).toString + "px";
+        tmp.style.width = ($(window).width() * 0.98).toString() + "px";
         tmp.style.top = (loaded_height + vertical_padding).toString() + "px";
         loaded_height += parseInt(tmp.getBoundingClientRect().height) + vertical_padding;
         return true;
