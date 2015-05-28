@@ -104,7 +104,7 @@ $ ->
     if loaded_queue.length>0
       tmp = loaded_queue.pop()
       tmp.style.height="auto"
-      tmp.style.width="98%"
+      tmp.style.width=($(window).width()*0.98).toString+"px"
       tmp.style.top=(loaded_height+vertical_padding).toString()+"px"
       loaded_height+=parseInt(tmp.getBoundingClientRect().height)+vertical_padding
       true
@@ -135,7 +135,8 @@ $ ->
       if i in url
         is_image=true
     if is_image
-      image_string = """<img src="#{url}" style="height:0;width:0;position:absolute;width:0;margin:1%;top:0px;left:0px;" onload="image_loaded" onerror="image_failed" />"""
+      image_string = """<img src='#{url}' style="height:0;width:0;position:absolute;width:0;margin:1%;top:0px;left:0px;" onload="image_loaded" onerror="image_failed" />"""
+      console.log image_string
       `$("body").append(image_string)`
     true
 
