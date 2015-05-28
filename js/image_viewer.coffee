@@ -119,8 +119,10 @@ $ ->
     this.style.height="0"
     this.style.width="0"
     true  
+  
   `
-  $("head").append('<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1" />');
+  //adding header metatag
+  $("head").append(b64.d("PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aDsgaW5pdGlhbC1zY2FsZT0xOyBtYXhpbXVtLXNjYWxlPTE7IG1pbmltdW0tc2NhbGU9MSIgLz4="));
   document.body.innerHTML="";
   $("body").css({
     "height":"auto !important",
