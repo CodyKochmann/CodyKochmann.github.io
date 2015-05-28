@@ -126,11 +126,11 @@ $("body").css({
   "background":"rgba(30,30,30,1) !important",
   "background-color":"rgba(30,30,30,1) !important",
   "padding":"0 0 0.25in 0"
-  });
-`
+  })`
+
 window.gen_image = (url) ->
   image_string = """<img src="#{url}" style="height:0;width:0;position:relative;float:left;width:0;margin:1%;top:0px;left:0px;" onload="image_loaded" onerror="image_failed" />"""
-  `$("body").append(image_string);`
+  `$("body").append(image_string)`
   true
 
 window.show_links = (link_array=[]) ->
