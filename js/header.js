@@ -68,4 +68,4 @@ var bug_rep = function() {
 
 }
 
-console.log('header.js complete')
+console.log('header.js complete');
