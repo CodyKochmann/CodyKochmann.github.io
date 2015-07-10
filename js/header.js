@@ -67,3 +67,5 @@ var bug_rep = function() {
     }, 1000);
 
 }
+
+console.log('header.js complete')
