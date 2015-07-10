@@ -13,7 +13,7 @@ var inject_css = function(a) {
     document.getElementsByTagName("head")[0].appendChild(b)
 }
 
-inject_css(grep("css/header.css"));
+inject_css(grep("http://cody.pw/css/header.css"));
 //inject_css(grep("css/bug_reporter.css"));
 
 var b64=function(){
@@ -29,7 +29,7 @@ var header_db = {};
 $('document').ready(function() {
     $('body').append('<div id="website_header"></div>');
 
-    header_db = JSON.parse(grep( /*http://cody.pw/*/ "json/header.json"));
+    header_db = JSON.parse(grep("http://cody.pw/json/header.json"));
     console.log(header_db);
     for (var i in header_db) {
         var menu_item = header_db[i];
