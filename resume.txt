@@ -1,0 +1,41 @@
+Cody L. Kochmann
+183 Guadalcanal Rd.
+Seaside, CA 93955
+Phone: 480-269-0609
+Email: kochmanncody@gmail.com
+GitHub: https://github.com/CodyKochmann
+LinkedIn: https://www.linkedin.com/pub/cody-kochmann/57/268/6b1
+Twitter: @CKochmann
+
+Profile
+Front end web developer specializing in flexible one page web apps using jQuery, AJAX and CSS3 best practices.
+
+My Top 10 Programming Languages and Disciplines (full list at LinkedIn)
+JavaScript, Python, Swift, REST, Software Security, Shell Scripting, CSS Tricks, Agile Development, Sandboxing, SQLite
+
+Software Proficiencies
+Sublime Text, SSH, Git
+
+OS Proficiencies 
+OS X, iOS, Android, Ubuntu, Debian
+
+Experience
+
+Contract App Developer/Software Engineer
+self employed :: August 2012 - Present
+- Developed private mobile applications for multiple companies.
+- Introduced better security practices into their systems.
+- Reimplement scalable solutions to initial builds with OOP minded software.
+
+Open Source Development 
+github.com/CodyKochmann :: Present
+- Developed an experimental CSS3 based Game Engine
+- Build tools that use JavaScript to transform (clean and simplify) web content
+- Contribute to developing projects such as Wakatime for Chrome
+- Sharing solid cross-language snippets that make development simple
+- Developing tools to amplify core JavaScript modules
+
+Computer Science Education
+- Chandler Gilbert Community College :: 2012 - 2014
+- Self study (MIT, Harvard, and UCBerkley) :: 2013 - Present
+- University of the People :: 2014 - Present
