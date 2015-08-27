@@ -1,6 +1,6 @@
 Cody L. Kochmann
-183 Guadalcanal Rd.
-Seaside, CA 93955
+1217 W. Avenue M
+San Angelo, TX 76901
 Phone: 480-269-0609
 Email: kochmanncody@gmail.com
 GitHub: https://github.com/CodyKochmann
@@ -8,16 +8,18 @@ LinkedIn: https://www.linkedin.com/pub/cody-kochmann/57/268/6b1
 Twitter: @CKochmann
 
 Profile
-Front end web developer specializing in flexible one page web apps using jQuery, AJAX and CSS3 best practices.
+Front end web developer specializing in flexible one page web apps 
+using jQuery, AJAX and CSS3 best practices.
 
 My Top 10 Programming Languages and Disciplines (full list at LinkedIn)
-JavaScript, Python, Swift, REST, Software Security, Shell Scripting, CSS Tricks, Agile Development, Sandboxing, SQLite
+JavaScript, Python, Swift, REST, Software Security, Shell Scripting, 
+CSS Tricks, Agile Development, Sandboxing, SQLite
 
 Software Proficiencies
 Sublime Text, SSH, Git
 
 OS Proficiencies 
-OS X, iOS, Android, Ubuntu, Debian
+OS X, Debian, Ubuntu, iOS, Android
 
 Experience
 
