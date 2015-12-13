@@ -1,6 +1,4 @@
 Cody L. Kochmann
-1217 W. Avenue M
-San Angelo, TX 76901
 Phone: 480-269-0609
 Email: kochmanncody@gmail.com
 GitHub: https://github.com/CodyKochmann
@@ -8,8 +6,8 @@ LinkedIn: https://www.linkedin.com/pub/cody-kochmann/57/268/6b1
 Twitter: @CKochmann
 
 Profile
-Front end web developer specializing in flexible one page web apps 
-using jQuery, AJAX and CSS3 best practices.
+Full stack engineer specializing in secure server clusters
+and cross platform one page web applications.
 
 My Top 10 Programming Languages and Disciplines (full list at LinkedIn)
 JavaScript, Python, Swift, REST, Software Security, Shell Scripting, 
@@ -32,7 +30,7 @@ self employed :: August 2012 - Present
 Open Source Development 
 github.com/CodyKochmann :: Present
 - Developed an experimental CSS3 based Game Engine
-- Build tools that use JavaScript to transform (clean and simplify) web content
+- Developed a regenerative server cluster for adaptive security management.
 - Contribute to developing projects such as Wakatime for Chrome
 - Sharing solid cross-language snippets that make development simple
 - Developing tools to amplify core JavaScript modules
