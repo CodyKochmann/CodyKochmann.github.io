@@ -10,8 +10,8 @@ Full stack engineer specializing in secure server clusters
 and cross platform one page web applications.
 
 My Top 10 Programming Languages and Disciplines (full list at LinkedIn)
-JavaScript, Python, Swift, REST, Software Security, Shell Scripting, 
-CSS Tricks, Agile Development, Sandboxing, SQLite
+JavaScript, Python, Swift, REST, Software Security, CSS Tricks, 
+Agile Development, Sandboxing, MongoDB, SQL
 
 Software Proficiencies
 Sublime Text, SSH, Git
